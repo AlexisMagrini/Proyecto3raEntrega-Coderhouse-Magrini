@@ -1,0 +1,23 @@
+@mixin cards ($color, $sombra) {
+    width: 250px;
+    height: 250px;
+    background-color: $color;
+    border-radius: 25px !important;
+    box-shadow: $sombra;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 15px 15px;
+}
+
+.card1 {
+    @include cards (none, none)
+}
+
+.card2 {
+    @include cards (#3B3B7E, 2px 3px 27px -12px rgba(0, 0, 0, 0.49))
+}
+
+.card3,
+.card4 {
+    @include cards (#FFFFFF,2px 3px 27px -12px rgba(0, 0, 0, 0.49));
+}

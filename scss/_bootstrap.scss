@@ -1,0 +1,81 @@
+.navbar {
+    background-color: #3B3B7E;
+    z-index: 1;
+    min-width: 100px !important;
+}
+
+.nav-bar {
+    color: #3B3B7E !important;
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px !important;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    &:hover {
+        color: #8888d3 !important;
+        background-color: #FFFFFF;
+        padding: 5px 10px 5px 10px !important;
+        border-radius: 20px;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: none !important;
+}
+
+.navbar-toggler-icon {
+    background: url(../img/menu.svg);
+}
+
+.nav-item {
+    color: #FFFFFF !important;
+}
+
+.card {
+    border-radius: 25px !important;
+    border: none !important;
+    box-shadow: 2px 3px 27px -12px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: 2px 3px 27px -12px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 2px 3px 27px -12px rgba(0, 0, 0, 0.49);
+    margin: auto !important;
+}
+
+.card-animation:hover {
+    animation: pulse;
+    animation-duration: 0.5s;
+    cursor: pointer;
+}
+
+.card-title {
+    color: #3B3B7E !important;
+    font-weight: bold !important;
+}
+
+.card-img-top {
+    border-radius: 25px 25px 25px 25px !important;
+}
+
+.card-body {
+    font-family: 'Poppins' !important;
+}
+
+.card-text {
+    color: #444444;
+    font-size: 0.8rem;
+}
+
+
+
+

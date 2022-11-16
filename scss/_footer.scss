@@ -1,0 +1,109 @@
+footer {
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+    background-image: url("../img/fondo-header.png");
+    background-repeat: round;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.cont-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding-bottom: 4rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.titulo-contacto {
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.redes-footer {
+    font-size: 1.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.titulo-form {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 10px;
+    -webkit-box-shadow: inset 0px -35px 13px -26px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px -35px 13px -26px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px -35px 13px -26px rgba(0, 0, 0, 0.2);
+}
+
+::placeholder {
+    color: #b4b4b4;
+}
+
+button {
+    background: none;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+    &:hover {
+        color: #3B3B7E ;
+        background-color: #bbbbff;
+        border: 1px solid #ffffff;
+        padding: 5px 10px;
+        translate: 1000ms;
+        transition: 0.5s ease;
+    }
+}
+
+
+.footer-pie {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        font-weight: 600;
+    }
+}
+
+.footer-pag-int {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #FFFFFF;
+}
+
+.titulo-contacto-pag-int {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -50px;
+    padding-bottom: 15px;
+}
+
+.redes-footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
