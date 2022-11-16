@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins" !important;
-  border: 1px solid brown;
 }
 
 body {
@@ -30,6 +29,10 @@ h3 {
   color: #FFFFFF;
   font-size: 1.8rem;
   font-weight: 300;
+}
+
+p {
+  color: #ffffff;
 }
 
 a:link, a:visited, a:active {
@@ -421,7 +424,6 @@ button:hover {
   h1 {
     font-size: 1.5rem;
   }
-<<<<<<< HEAD
   h2 {
     padding-top: 50px;
     text-align: center;
@@ -430,20 +432,13 @@ button:hover {
     text-align: center;
   }
   .animacion-header {
-=======
-  .titulo-header {
->>>>>>> d220dae
     text-align: center !important;
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
   }
   header {
-<<<<<<< HEAD
     height: 700px;
-=======
-    height: 725px;
->>>>>>> d220dae
   }
   .nav-responsive {
     display: flex;
