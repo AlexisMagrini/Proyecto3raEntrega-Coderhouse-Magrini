@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+:root {
+  --colorVioleta: #3B3B7E;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -224,7 +228,7 @@ a {
 
 .titulo-proyectos {
   text-align: center;
-  color: #3B3B7E;
+  color: var(--colorVioleta);
   font-size: 3rem;
   font-weight: bold;
   padding: 50px;
